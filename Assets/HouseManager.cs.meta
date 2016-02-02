@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: c3cf32cb72b02144a8ac9a09b9fd084b
+timeCreated: 1454241087
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - house1Prefab: {fileID: 197504, guid: e3228fee0e1658f41aa73222ee401839, type: 2}
+  - house2Prefab: {fileID: 194790, guid: 0ecb0e0839bd26a4fa706709f64130f5, type: 2}
+  - house3Prefab: {fileID: 165384, guid: 70ac97dcf2364a148a44c41131a82285, type: 2}
+  - house4Prefab: {fileID: 117832, guid: 5be4c7711da47fe44ba7553931f90113, type: 2}
+  - hotelPrefab: {fileID: 130876, guid: 3fc3b3e5809420a418652343a8d726b6, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
