@@ -10,8 +10,9 @@ public class PlayerManager : MonoBehaviour {
 	public Rect moveWaitRect;
 	public Rect moveTimeLabelRect;
 	public Rect moveWaitLabelRect;
-	public float moveTime = 0f;
-	public float waitTime = 0.1f;
+	
+	public float moveTime = 0.2f;
+	public float waitTime = 0.5f;
 	// Use this for initialization
 	void Start () {
 		moveTimeRect = new Rect(Screen.width-100,60,100,25);

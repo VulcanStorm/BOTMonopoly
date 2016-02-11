@@ -533,10 +533,11 @@ public class GamePlayer : MonoBehaviour {
 		// check for a valid offer. otherwise, we just can't make this trade
 		// do both players have the required funds
 		if(offer.recieverFunds > target.money || offer.senderFunds > money){
+			if(offer.senderFunds < 0 || offer.recieverFunds < 0){
 			// no more trade offer
 			Debug.Log (playerName+": Cannot Propose trade offer as the required funds cannot be transferred");
 			pendingTradeOffer = false;
-			
+			}
 		}
 		else{
 		Debug.Log (playerName+": New Trade Offer Proposed to "+target.playerName);
